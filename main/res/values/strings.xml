@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Event reminder</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_schedule">Schedule</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="titles">
+        <item>Call Reminder</item>
+        <item>Go Reminder</item>
+        <item>Do Reminder</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Make sure you call </item>
+        <item>Make sure you go </item>
+        <item>Make sure you do </item>
+    </string-array>
+    <string name="title_activity_2">Activity2</string>
+
+</resources>

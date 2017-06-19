@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundcopy"
+    tools:context="com.example.kale.finalproject.SecondActivity">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="-130dp">
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/circleButton1"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_alignLeft="@+id/circleButton2"
+            android:layout_alignStart="@+id/circleButton2"
+            android:layout_below="@+id/textView1"
+            android:onClick="goToMyScheduleActivity"
+            android:src="@drawable/ic_dehaze_black_24dp"
+            app:cb_color="@color/colorPrimary"
+            app:cb_pressedRingWidth="16dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/circleButton"
+            android:layout_marginTop="50dp"
+            android:fontFamily="cursive"
+            android:text="Schedule"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/circleButton2"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="39dp"
+            android:onClick="goToMyCalendarActivity"
+            android:src="@drawable/ic_web_asset_black_24dp"
+            app:cb_color="@color/colorPrimary"
+            app:cb_pressedRingWidth="16dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="25dp"
+            android:fontFamily="cursive"
+            android:text="Calendar"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>
